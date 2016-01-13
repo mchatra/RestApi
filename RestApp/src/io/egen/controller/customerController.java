@@ -21,7 +21,6 @@ import javax.ws.rs.core.Response.Status;
 
 public class customerController {
 	
-	// DELETE /api/employee/1002
 		@DELETE
 		@Path("/{id}")
 		public Response delete (@PathParam("id") int id) {
